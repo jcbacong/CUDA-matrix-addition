@@ -1,6 +1,6 @@
 # Matrix Addition in CUDA C
 
-The ```main.cu``` program consists of three cuda kernels for addition two square matrices of dimension N, namely:
+The ```main.cu``` program consists of three cuda kernels for adding two square matrices of dimension N, namely:
 
 1. ```kernel_1t1e``` for element wise addition with N^2 threads, 
 2. ```kernel_1t1r``` for row-wise addition with N threads, and
